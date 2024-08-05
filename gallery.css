@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kalnia Glaze", serif;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: 20px;    
+}
+header button{
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 8px;  
+    
+}
+.banner{
+    background-image: url(https://scontent.fcjb3-2.fna.fbcdn.net/v/t39.30808-6/240387261_106965255038391_1511768947830207588_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=btuJYwY0KUwQ7kNvgFZgcZ4&_nc_ht=scontent.fcjb3-2.fna&oh=00_AYA5sjBi73Q0eeNrVCSh4z1Ci74yQtZh6EUq0F3NcEYtVg&oe=66A678A1);
+   width: 100%;
+   height: 505px;
+   background-size: cover;
+}
+section{
+    background-color: rgb(98, 41, 85);
+    padding-top: 100px;
+}
+.row{
+    padding-top: 30px;
+    width: 200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.col{
+    background-color: rgb(150, 47, 121);
+    width: 340px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+img{
+    border-radius: 30px;
+    padding-top: 20px;
+    width: 188px;
+    height: 300px;
+}
+section span{
+    color: brown;
+}
+img:hover{
+    box-shadow: 2px 2px black
+}
+.s2{
+    background-color:rgb(72, 162, 203);
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 10px ; 
+    font-size: 15px;
+
+}
+.s2:hover{
+    background-color: rgb(255, 255, 255);
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    padding-top: 10px;
+}
+footer h2{
+    background-color:  rgb(98, 41, 85);
+}
+#st{
+    position: sticky;
+    top: 0px;
+}
+
+
+
+
+
+@media screen and (max-width:400px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+    }
